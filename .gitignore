@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets
+.env
+
+# Data: pipeline inputs, intermediates and outputs are not versioned.
+# Download the released dataset from Hugging Face instead.
+*.jsonl
+*.jsonl.gz
+*.json
+*.parquet
+*.csv
+*.tsv
+*.xlsx
+*.gz
+*.fa
+*.fai
+*.log
+**/output/
+database/
+reference_data/
+mappings/
+claim_extractor/phase_4/hgnc_genes.txt
+*.pdf
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store

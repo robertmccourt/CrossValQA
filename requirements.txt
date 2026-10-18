@@ -1,0 +1,10 @@
+# Python >= 3.10
+aiohttp>=3.9        # async OpenRouter / API clients
+requests>=2.31
+python-dotenv>=1.0
+tqdm>=4.66
+ijson>=3.2          # streaming the article corpus (phase 4 anchoring)
+pyarrow>=14         # release/stage_hf.py (Parquet export)
+
+# Optional: release/get_mutation_dna.py (genomic context for dataset users)
+# pysam>=0.22
